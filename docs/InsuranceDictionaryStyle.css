@@ -53,11 +53,19 @@ a:-webkit-any-link {
     padding: 0 54px;
 }
 
+@media (max-width : 767px) {
+    .bph .bph__header {
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+    .bph .bph__breadcrumb-container {
+        left: 0;
+    }
+}
+
 .bph .bph__breadcrumb-container {
     position: relative;
-    padding-top: 24px
- px
-    ;
+    padding-top: 24px;
     width: max-content;
 }
 
@@ -104,13 +112,25 @@ html body h1 {
 .mod .mod__overlay {
     padding: 96px 0;
 }
-.ccc .rwc__container {
-    margin: auto;
-    padding-right: 328px;
-    width: 632px;
+@media (min-width : 1025px) {
+    .ccc .rwc__container {
+        margin: auto;
+        padding-right: 328px;
+        width: 632px;
+    }
+    .mod .mod__overlay {
+        padding: 96px 0;
+    }
 }
+
 .ccc .ccc__module:last-child {
     margin-bottom: 0;
+}
+
+@media (min-width : 768px) {
+    .mod .mod__overlay {
+        padding: 72px 54px;
+    }
 }
 
 .ccc .ccc__module {
