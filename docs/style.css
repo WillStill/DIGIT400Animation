@@ -90,7 +90,7 @@ main {
 
 img,
 video {
-    width: 400px;
+    height: 360px;
 }
 
 .breadcrumb-icon {
