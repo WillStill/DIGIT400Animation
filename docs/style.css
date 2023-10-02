@@ -27,7 +27,7 @@ h5 {
     padding: 0 0.67em;
 }
 
-p a {
+li a, p a {
     color: -webkit-link;
 }
 
