@@ -27,14 +27,20 @@ h5 {
     padding: 0 0.67em;
 }
 
+p a {
+    color: -webkit-link;
+}
+
 a {
     color: inherit;
 }
 
+
+
 header {
     background: #005487;
     color: #fff;
-    padding-top: 1.67em;
+    padding: 1.67em 20px 0;
 }
 
 header div {
@@ -84,7 +90,7 @@ main {
 
 img,
 video {
-    width: 300px;
+    width: 400px;
 }
 
 .breadcrumb-icon {
