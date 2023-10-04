@@ -99,3 +99,122 @@ video {
     padding-left: 25px;
     text-decoration-line: underline;
 }
+
+/* TAKEN FROM LOCAL INSURANCE WEBSITE */
+
+.gfc {
+    background: #333;
+    padding-top: 56px
+}
+.gfc .gfc__container {
+    margin: auto;
+    width: 960px
+}
+@media (max-width : 1024px) {
+    .gfc .gfc__container {
+        margin: 0 54px;
+        width: auto
+    }
+}
+@media (max-width : 767px) {
+    .gfc .gfc__container {
+        margin: unset;
+        width: auto
+    }
+}
+
+.gfc a:not(.btn) {
+    border: 1px solid transparent;
+    color: #fff;
+    padding-left: 0;
+    padding-right: 8px
+}
+.gfc a:not(.btn):focus {
+    border: 1px solid #fff;
+    background: rgba(216, 216, 216, 0)
+}
+.gfc a:not(.btn):active {
+    background: rgba(216, 216, 216, 0);
+    border: 1px solid #fff;
+    padding-left: 0;
+    padding-right: 8px
+}
+.gfc a:not(.btn):hover {
+    border: 1px solid transparent;
+    padding-right: 8px
+}
+.gfc a:not(.btn):focus:active {
+    background: rgba(216, 216, 216, 0);
+    border: 1px solid #fff;
+    padding-left: 0;
+    padding-right: 8px
+}
+
+
+.gfc__service-links .nav_link_icon {
+    filter: brightness(0) invert(1);
+    height: 32px;
+    width: 32px
+}
+.gfc__service-links .gfc__link-list {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width : 767px) {
+    .gfc__service-links .gfc__link-list {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
+.gfc__service-links .gfc__icon-display {
+    border: 1px solid transparent;
+    text-align: center;
+    width: 7.5em;
+    margin: auto
+}
+@media (max-width : 1024px) {
+@supports (-webkit-touch-callout:none){.gfc__service-links .gfc__icon-display{width:7.5em}}}
+.gfc__service-links .gfc__icon-display a:not(.btn) {
+    border: 1px solid transparent;
+    display: block;
+    text-decoration: none;
+    padding: 8px 0
+}
+.gfc__service-links .gfc__icon-display a:not(.btn):active {
+    background: rgba(34, 34, 34, .1);
+    border: 1px solid #fff;
+    box-shadow: none;
+    outline: 0;
+    display: inline-block;
+    margin: auto;
+    padding-right: 0
+}
+.gfc__service-links .gfc__icon-display a:not(.btn):focus {
+    background: rgba(34, 34, 34, .2);
+    border: 1px solid #fff;
+    color: #fff;
+    box-shadow: inset -2px 2px 3px 0 rgba(0, 0, 0, .17);
+    outline: 1px dashed #fff;
+    display: inline-block;
+    margin: auto
+}
+.gfc__service-links .gfc__icon-display a:not(.btn):active:focus {
+    outline: 0
+}
+.gfc__service-links .gfc__icon-display .gfc__icon-textlink {
+    font-size: 16px;
+    text-align: center;
+    line-height: 21px;
+    font-weight: 600;
+    text-transform: uppercase
+}
+.gfc__service-links li {
+    padding-top: 34px;
+    padding-bottom: 48px;
+    width: 20%
+}
